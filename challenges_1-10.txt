@@ -1,0 +1,44 @@
+*****************************Challenge 1**************************************
+Un bus se déplace en ville, il prend et/ou dépose certaines personnes à chaque arrêt.
+Vous recevez une liste d’entiers. Chaque élément comporte le nombre de personnes qui
+montent dans le bus (le premier élément) et le nombre de personnes qui en sortent (le
+deuxième élément).
+Le 2e nombre du premier élément de la liste vaut toujours 0 car le bus est vide en arrivant
+au premier arrêt de bus. Votre tâche consiste à renvoyer le nombre de personnes encore
+dans le bus après le dernier arrêt.
+number([[10,0],[3,5],[5,8]]) -> 5
+number([[3,0],[9,1],[4,10],[12,2],[6,1],[7,10]]) -> 17
+number([[3,0],[9,1],[4,8],[12,2],[6,1],[7,8]]) -> 21
+
+*****************************Challenge 2**************************************
+Nous avons besoin d'une fonction qui compte le nombre de moutons présents dans un tableau donné (true
+signifie que le mouton est présent). Par exemple vous devrez trouver 17 moutons pour la liste suivante :
+[true, true, true, false,
+true, true, true, true ,
+true, false, true, false,
+true, false, false, true ,
+true, true, true, true ,
+false, false, true, true]
+
+*****************************Challenge 3**************************************
+En entrée on vous donne une chaîne de caractères, en sortie vous devez avoir la même phrase sans le
+premier ni le dernier caractère.
+removeChar("Ceci est une phrase")  "eci est une phras"
+
+*****************************Challenge 4**************************************
+Votre patron a décidé d'économiser de l'argent en achetant un logiciel de reconnaissance de caractères
+pour numériser d'anciens romans dans votre base de données. Il semble que les mots soient bien saisis,
+mais vous remarquez rapidement qu'il y a aussi des nombres dans des endroits aléatoires dans le texte :
+stringClean ('! !')  '! !'
+stringClean ('123456789')  ''
+stringClean("(E3at m2e2!!)")  "(Eat me!!)"
+stringClean("Wh7y can't we3 bu1y the goo0d software3? #cheapskates3")  "Why can't we
+buy the good software? #cheapskates"
+Vos collaborateurs vous demandent une solution pour supprimer tous les nombres. Votre programme
+prendra en entrée une chaîne, devra nettoyer tous les caractères numériques, et renverra une chaîne avec
+les espacements, caractères et caractères spéciaux ~#$%^&!@*():; "'., tous intacts.
+
+*****************************Challenge 5**************************************
+doubleChar("String")  "SSttrriinngg"
+doubleChar("Hello World")  "HHeelllloo WWoorrlldd"
+doubleChar("1234!_ ")  "11223344!!__ "
