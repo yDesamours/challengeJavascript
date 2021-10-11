@@ -39,6 +39,55 @@ prendra en entrée une chaîne, devra nettoyer tous les caractères numériques,
 les espacements, caractères et caractères spéciaux ~#$%^&!@*():; "'., tous intacts.
 
 *****************************Challenge 5**************************************
+A partir d'une chaîne de caractères, renvoyez une chaîne dans laquelle chaque caractère (sensible à la
+casse) est répété une fois.
 doubleChar("String")  "SSttrriinngg"
 doubleChar("Hello World")  "HHeelllloo WWoorrlldd"
 doubleChar("1234!_ ")  "11223344!!__ "
+
+*****************************Challenge 6**************************************
+A partir d’une liste de nombres, supprimez les doublons et renvoyez la liste simplifiée sous forme ordonnée.
+removeDuplicates([1,1,2,4,5,2,1,2,3,5,5,5])
+ Array [ 1, 2, 3, 4, 5 ]
+
+*****************************Challenge 7**************************************
+Deux joueurs - black et white - jouent à un jeu qui se compose de plusieurs tours. Si un joueur gagne
+un tour, il commencera également le prochain. S’il perd, c'est l'autre joueur qui commencera. A partir de
+la couleur du joueur actuel et du résultat du tour (true ou false), déterminez qui débutera le prochain
+tour.
+whoseMove("black",false)  "white"
+whoseMove("white",true)  "white"
+whoseMove("white",false)  "black"
+ Array [ 1, 2, 3, 4, 5 ]
+
+*****************************Challenge 8**************************************
+Ecrire une fonction accum telle que :
+accum("abcd")  "A-Bb-Ccc-Dddd"
+accum("RqaEzty")  "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+accum("cwAt")  "C-Ww-Aaa-Tttt"
+Remarquez les majuscules au début de chacun des blocs, le nombre de lettres croissant et la séparation
+avec des tirets.
+
+*****************************Challenge 9**************************************
+La tribu Arara compte de la façon suivante :
+1 = anane
+2 = adak
+3 = adak anane
+4 = adak adak
+5 = adak adak anane
+6 = adak adak adak
+7 = adak adak adak anane
+8 = adak adak adak adak
+Ecrire une fonction qui transforme un nombre en langage Arara.
+countArara(1)  "anane"
+countArara(3)  "adak anane"
+countArara(8)  "adak adak adak adak
+
+*****************************Challenge 10**************************************
+Les distributeurs automatiques permettent de taper des codes PIN, ces
+derniers ne peuvent contenir que 4 chiffres ou exactement 6 chiffres. Si
+la fonction est transmise est un code PIN valide, renvoyez true, sinon
+renvoyez false.
+ValidatePIN ("1234")  true
+ValidatePIN ("12345")  false
+ValidatePIN ("a234")  false
