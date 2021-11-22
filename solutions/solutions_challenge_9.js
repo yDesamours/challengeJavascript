@@ -6,5 +6,5 @@ const solution1 = (num) => {
   
   const result = " adak ".repeat(numAdak) + " anane ".repeat(numAnane)
   
-  return result.trim()
+  return result.trim();
 }
