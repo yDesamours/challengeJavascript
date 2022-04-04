@@ -6,12 +6,8 @@ const solution1 = (arg) => {
 }
 
 //or
-const solution2 = (arg) => {
-  return arg.split('').filter(c => ['a', 'e', 'i' ,'o', 'u'].includes(c)).length
-}
+const solution2 = (arg) => arg.split('').filter(c => ['a', 'e', 'i' ,'o', 'u'].includes(c)).length
   
 //Another solution. Stock all the character into a table, run through that table and count the vowel
 
-const solution3 = (arg) => {
-  return arg.split('').reduce((acc, cur) => ['a', 'e', 'i' ,'o', 'u'].includes(c) ? acc + 1 : acc, 0)
-}
+const solution3 = (arg) =>  arg.split('').reduce((acc, cur) => ['a', 'e', 'i' ,'o', 'u'].includes(c) ? acc + 1 : acc, 0)
