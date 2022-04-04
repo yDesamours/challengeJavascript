@@ -12,5 +12,6 @@ const solution2 = (arg) => {
   
 //Another solution. Stock all the character into a table, run through that table and count the vowel
 
-const solution2 = (arg) => {
-  return arg.split('').re
+const solution3 = (arg) => {
+  return arg.split('').reduce((acc, cur) => ['a', 'e', 'i' ,'o', 'u'].includes(c) ? acc + 1 : acc, 0)
+}
