@@ -39,8 +39,7 @@ findLongest([9000, 8, 800])  9000
 findLongest([8, 900, 500])  900
 
 ************************challenge16***************************
-A partir d’une liste de nombres, trouvez celui avec le plus de chiffres.
-Si deux nombres dans le tableau ont le même nombre de chiffres, renvoyez le premier de la liste.
-findLongest([1, 10, 100])  100
-findLongest([9000, 8, 800])  9000
-findLongest([8, 900, 500])  900
+On vous donne une chaîne de mots, renvoyez la longueur du ou des mots les plus courts.
+La chaîne ne sera jamais vide et vous ne devez pas tenir compte des types de données (nombres, lettres
+etc.).
+findShort("bitcoin take over the world maybe who knows perhaps")  3
