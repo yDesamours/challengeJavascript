@@ -1,2 +1,2 @@
 # challengeJavascript
-some ES6 code for practice
+Many problems solved with JavaScript
