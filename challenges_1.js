@@ -1,3 +1,4 @@
+/*
 *****************************Challenge 1**************************************
 Un bus se déplace en ville, il prend et/ou dépose certaines personnes à chaque arrêt.
 Vous recevez une liste d’entiers. Chaque élément comporte le nombre de personnes qui
@@ -9,7 +10,7 @@ dans le bus après le dernier arrêt.
 number([[10,0],[3,5],[5,8]]) -> 5
 number([[3,0],[9,1],[4,10],[12,2],[6,1],[7,10]]) -> 17
 number([[3,0],[9,1],[4,8],[12,2],[6,1],[7,8]]) -> 21
-
+*/
 
 //solution 1
 //this solution extract two number from the original array using a for statement
