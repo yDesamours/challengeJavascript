@@ -1,3 +1,4 @@
+/*
 *****************************Challenge 9**************************************
 La tribu Arara compte de la façon suivante :
 1 = anane
@@ -12,7 +13,7 @@ Ecrire une fonction qui transforme un nombre en langage Arara.
 countArara(1)  "anane"
 countArara(3)  "adak anane"
 countArara(8)  "adak adak adak adak
-
+*/
 
 
 //solution 9
