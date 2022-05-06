@@ -1,3 +1,4 @@
+/*
 *****************************Challenge 4**************************************
 Votre patron a décidé d'économiser de l'argent en achetant un logiciel de reconnaissance de caractères
 pour numériser d'anciens romans dans votre base de données. Il semble que les mots soient bien saisis,
@@ -10,7 +11,7 @@ buy the good software? #cheapskates"
 Vos collaborateurs vous demandent une solution pour supprimer tous les nombres. Votre programme
 prendra en entrée une chaîne, devra nettoyer tous les caractères numériques, et renverra une chaîne avec
 les espacements, caractères et caractères spéciaux ~#$%^&!@*():; "'., tous intacts.
-
+*/
 
 
 //Solution 1 using the replace function with a regular expression
