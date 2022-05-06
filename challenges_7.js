@@ -1,3 +1,4 @@
+/*
 *****************************Challenge 7**************************************
 Deux joueurs - black et white - jouent à un jeu qui se compose de plusieurs tours. Si un joueur gagne
 un tour, il commencera également le prochain. S’il perd, c'est l'autre joueur qui commencera. A partir de
@@ -7,6 +8,8 @@ whoseMove("black",false)  "white"
 whoseMove("white",true)  "white"
 whoseMove("white",false)  "black"
  Array [ 1, 2, 3, 4, 5 ]
+*/
+
 
 
 //using a ternary expression and the "filter" method
