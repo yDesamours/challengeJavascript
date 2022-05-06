@@ -1,3 +1,4 @@
+/*
 *****************************Challenge 2**************************************
 Nous avons besoin d'une fonction qui compte le nombre de moutons présents dans un tableau donné (true
 signifie que le mouton est présent). Par exemple vous devrez trouver 17 moutons pour la liste suivante :
@@ -7,7 +8,7 @@ true, false, true, false,
 true, false, false, true ,
 true, true, true, true ,
 false, false, true, true]
-
+*/
 
 
 //Solution 1 using a for loop.
