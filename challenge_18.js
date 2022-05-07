@@ -21,5 +21,9 @@ Voici l'image attendue après transformation :
 */
 
 const solution1 = (arg) => (
-  arg.map(c => c.map(d => Array(3).fill(Math.floor((c[0] + c[1] + c[2])/3))))
+  arg.map(c => c.map(d => Array(3).fill(Math.floor((d[0] + d[1] + d[2])/3))))
+  )
+
+const solution2 = (arg) => (
+  arg.map(c => c.map(([r, g, b]) => Array(3).fill(Math.floor((r + g + b)/3))))
   )
