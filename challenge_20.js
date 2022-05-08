@@ -19,5 +19,5 @@ const solution1 = (arg) => {
 //we replace every character followed by a at least four others 
 
 const solution2 = (arg) =>{
-  return arg.replace(/.(?=....)/, '#')
+  return arg.replace(/.(?=....)/g, '#')
 }
